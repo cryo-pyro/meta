@@ -162,3 +162,38 @@ $$
 
 We minimize \(\varepsilon = y - \hat y\).
 
+
+\[
+\textbf{Ukubona Pentad (PBSMC)}
+\]
+
+\[
+\begin{aligned}
+\textbf{1) Physics (First Principles)} \quad &
+\text{Earth / Seed / Roots} \;\;\;\;\; 
+\text{Unattainability of Zero} \\
+& \{\text{Photons} \to \text{Electrons} \to \text{Bonds} \to \text{Molecules}\} \\[8pt]
+
+\textbf{2) Biology (Gradients)} \quad &
+\text{Trunk / DAG flows} \;\;\;\;\; 
+\text{Energy Gradients, Teleology (mistaken)} \\[8pt]
+
+\textbf{3) Sociology (Collisions)} \quad &
+\text{Branching / Interaction / Games} \\
+& \text{(Zero-sum, Reciprocal, Cooperative equilibria)} \\[8pt]
+
+\textbf{4) Metaphysics (Emergence / Perspectivism)} \quad &
+\text{Neuron Soma / Canopy Scaling} \\
+& \{\text{Tactical}, \text{Informational}, \text{Strategical}, \text{Operational}, \text{Existential}\} \\[8pt]
+
+\textbf{5) Computation (Recursion)} \quad &
+\theta \in \mathbb{R}^p,\;\; \hat y = f(X;\theta),\;\; \varepsilon = y - \hat y \\
+& J(\theta) = \sum_{i=1}^n w_i \,\ell(\varepsilon_i), \quad
+\hat\theta = \arg\min_{\theta} J(\theta) \\
+& \Sigma_\varepsilon = \mathrm{Var}(\varepsilon), \;\;\;
+\mathrm{Cov}(\hat\theta) = (X^\top \Sigma_\varepsilon^{-1} X)^{-1} \\
+& \theta_{t+1} = \theta_t - \eta \nabla_\theta J(\theta_t) \\
+& \textbf{Goal: } \; y - \hat y = \varepsilon \;\;\; \text{minimized.}
+\end{aligned}
+\]
+
