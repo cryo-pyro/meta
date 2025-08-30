@@ -124,38 +124,29 @@ Pyromancer — this is tight. Each layer has its **metaphor (tree/neuron), disci
 # C 
 
 $$
-\textbf{Computational Pentad (v2)}
+\textbf{Computational Pentad (v3)}
 $$
 
 $$
 \begin{aligned}
 \textbf{1) Parameters}\quad & \theta \in \mathbb{R}^p
 \\[6pt]
-\textbf{2) Data \& Model}\quad & X \in \mathbb{R}^{n\times p},\; y \in \mathbb{R}^n,\;
-\hat y \;=\; f(X;\theta)
-\\[6pt]
-\textbf{3) Residuals \& Objective}\quad &
-\varepsilon \;=\; y - \hat y, \qquad
-J(\theta) \;=\; \sum_{i=1}^n w_i\,\ell(\varepsilon_i)
-\\
-& \text{(OLS: } \ell(\varepsilon_i)=\varepsilon_i^2 \;\;\Rightarrow\;\;
-\hat\theta \;=\; \arg\min_{\theta}\;\|y - X\theta\|_2^2\text{)}
+\textbf{2) Matrix (Var\text{--}Cov)}\quad &
+\Sigma = \mathrm{Var}(\varepsilon), \qquad
+\mathrm{Cov}(\hat\theta) = (X^\top \Sigma^{-1} X)^{-1}
 \\[8pt]
-\textbf{4) Uncertainty (Covariance)}\quad &
-\Sigma_\varepsilon \;=\; \mathrm{Var}(\varepsilon)\;(\text{e.g. } \sigma^2 I_n), \\
-& \mathrm{Cov}(\hat\theta) \;=\; (X^\top \Sigma_\varepsilon^{-1} X)^{-1}
-\quad \text{(OLS: } \sigma^2 (X^\top X)^{-1})
+\textbf{3) Collisions (Hazard)}\quad &
+h(t) \;=\; \lim_{\Delta\to 0^+}\frac{\Pr(t \le T < t+\Delta \mid T \ge t)}{\Delta}
 \\[8pt]
-\textbf{5) Recursion / Update}\quad &
-\theta_{t+1} \;=\; \theta_t \;-\; \eta\,\nabla_\theta J(\theta_t)
-\quad \text{or} \quad
-p(\theta\mid y) \;\propto\; p(y\mid \theta)\,p(\theta)
-\\[12pt]
-\textbf{Goal (explicit)}:\quad &
-y - \hat y = \varepsilon,
-\qquad
-\hat\theta = \arg\min_{\theta} J(\theta).
+\textbf{4) Survival (Emergence)}\quad &
+S(t) \;=\; \Pr(T>t) \;=\; \exp\!\Big(-\int_0^t h(u)\,du\Big)
+\\[8pt]
+\textbf{5) Optimization (Recursion)}\quad &
+y - \hat y = \varepsilon, \qquad
+\hat\theta = \arg\min_{\theta} J(\theta)
 \end{aligned}
 $$
+
+Inline example: We minimize \(\varepsilon = y - \hat y\).
 
  
