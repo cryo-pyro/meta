@@ -1,10 +1,9 @@
 
-<!-- MathJax v3 for GitHub Pages -->
 <script>
   window.MathJax = {
     tex: {
-      inlineMath: [['\\(','\\)']],         // inline: \( ... \)
-      displayMath: [['\\[','\\]']],       // display: \[ ... \]
+      inlineMath: [['\\(','\\)']],
+      displayMath: [['\\[','\\]']],
       processEscapes: true
     },
     svg: { fontCache: 'global' }
@@ -12,6 +11,7 @@
 </script>
 <script id="MathJax-script" async
   src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
+
 
 
 # A
@@ -163,3 +163,4 @@ y - \hat y = \varepsilon,
 \]
 
 Inline example: We minimize \(\varepsilon = y - \hat y\).
+
