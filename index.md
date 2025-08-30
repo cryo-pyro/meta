@@ -158,4 +158,4 @@ y - \hat y = \varepsilon,
 \end{aligned}
 $$
 
-Inline example: We minimize $\varepsilon = y - \hat y$.
+ 
