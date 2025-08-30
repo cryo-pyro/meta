@@ -1,5 +1,5 @@
-```
-less
+```less
+
                          [ Ideology / Nietzsche / Noradrenaline+Dopamine / Worker ]
                                         (Centreville)
                                   Strategic / Tent
@@ -20,3 +20,5 @@ less
                              Tactical / Anglican
                              Entropy backdrop
                                   6 o’clock
+
+```
