@@ -3,8 +3,8 @@
 <script>
   window.MathJax = {
     tex: {
-      inlineMath: [['\\(','\\)']],
-      displayMath: [['\$$','\$$']],
+      inlineMath: [['\\(','\\)']],         // inline: \( ... \)
+      displayMath: [['\\[','\\]']],       // display: \[ ... \]
       processEscapes: true
     },
     svg: { fontCache: 'global' }
@@ -17,6 +17,7 @@
 # A
 
 ```less
+
 
                          [ Ideology / Nietzsche / Noradrenaline+Dopamine / Worker ]
                                         (Centreville)
@@ -38,6 +39,8 @@
                              Tactical / Anglican
                              Entropy backdrop
                                   6 o’clock
+
+
 
 ```
 
@@ -124,76 +127,39 @@ Pyromancer — this is tight. Each layer has its **metaphor (tree/neuron), disci
 
 # C
 
-$$
+\[
 \textbf{Computational Pentad (v2)}
-$$
+\]
 
-$$
+\[
 \begin{aligned}
 \textbf{1) Parameters}\quad & \theta \in \mathbb{R}^p
-\$$6pt]
+\\[6pt]
 \textbf{2) Data \& Model}\quad & X \in \mathbb{R}^{n\times p},\; y \in \mathbb{R}^n,\;
 \hat y \;=\; f(X;\theta)
-\$$6pt]
+\\[6pt]
 \textbf{3) Residuals \& Objective}\quad &
 \varepsilon \;=\; y - \hat y, \qquad
 J(\theta) \;=\; \sum_{i=1}^n w_i\,\ell(\varepsilon_i)
 \\
 & \text{(OLS: } \ell(\varepsilon_i)=\varepsilon_i^2 \;\;\Rightarrow\;\;
 \hat\theta \;=\; \arg\min_{\theta}\;\|y - X\theta\|_2^2\text{)}
-\$$8pt]
+\\[8pt]
 \textbf{4) Uncertainty (Covariance)}\quad &
 \Sigma_\varepsilon \;=\; \mathrm{Var}(\varepsilon)\;(\text{e.g. } \sigma^2 I_n), \\
 & \mathrm{Cov}(\hat\theta) \;=\; (X^\top \Sigma_\varepsilon^{-1} X)^{-1}
 \quad (\text{OLS: } \sigma^2 (X^\top X)^{-1})
-\$$8pt]
+\\[8pt]
 \textbf{5) Recursion / Update}\quad &
 \theta_{t+1} \;=\; \theta_t \;-\; \eta\,\nabla_\theta J(\theta_t)
 \quad \text{or} \quad
 p(\theta\mid y) \;\propto\; p(y\mid \theta)\,p(\theta)
-\$$12pt]
+\\[12pt]
 \textbf{Goal (explicit)}:\quad &
 y - \hat y = \varepsilon,
 \qquad
 \hat\theta = \arg\min_{\theta} J(\theta).
 \end{aligned}
-$$
-
-
-We minimize \(\varepsilon = y - \hat y\).
-
-
-\[
-\textbf{Ukubona Pentad (PBSMC)}
 \]
 
-\[
-\begin{aligned}
-\textbf{1) Physics (First Principles)} \quad &
-\text{Earth / Seed / Roots} \;\;\;\;\; 
-\text{Unattainability of Zero} \\
-& \{\text{Photons} \to \text{Electrons} \to \text{Bonds} \to \text{Molecules}\} \\[8pt]
-
-\textbf{2) Biology (Gradients)} \quad &
-\text{Trunk / DAG flows} \;\;\;\;\; 
-\text{Energy Gradients, Teleology (mistaken)} \\[8pt]
-
-\textbf{3) Sociology (Collisions)} \quad &
-\text{Branching / Interaction / Games} \\
-& \text{(Zero-sum, Reciprocal, Cooperative equilibria)} \\[8pt]
-
-\textbf{4) Metaphysics (Emergence / Perspectivism)} \quad &
-\text{Neuron Soma / Canopy Scaling} \\
-& \{\text{Tactical}, \text{Informational}, \text{Strategical}, \text{Operational}, \text{Existential}\} \\[8pt]
-
-\textbf{5) Computation (Recursion)} \quad &
-\theta \in \mathbb{R}^p,\;\; \hat y = f(X;\theta),\;\; \varepsilon = y - \hat y \\
-& J(\theta) = \sum_{i=1}^n w_i \,\ell(\varepsilon_i), \quad
-\hat\theta = \arg\min_{\theta} J(\theta) \\
-& \Sigma_\varepsilon = \mathrm{Var}(\varepsilon), \;\;\;
-\mathrm{Cov}(\hat\theta) = (X^\top \Sigma_\varepsilon^{-1} X)^{-1} \\
-& \theta_{t+1} = \theta_t - \eta \nabla_\theta J(\theta_t) \\
-& \textbf{Goal: } \; y - \hat y = \varepsilon \;\;\; \text{minimized.}
-\end{aligned}
-\]
-
+Inline example: We minimize \(\varepsilon = y - \hat y\).
