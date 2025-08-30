@@ -129,18 +129,11 @@ title: Computational Pentad v3
 ---
 
 
-
-# C
-
-$$
-\textbf{Computational Pentad (v3)}
-$$
-
 $$
 \begin{aligned}
 \textbf{1) Parameters}\quad & \theta \in \mathbb{R}^p
 \\[6pt]
-\textbf{2) Matrix (Var\text{--}Cov)}\quad &
+\textbf{2) Matrix (Var\text{Cov)}\quad &
 \Sigma = \mathrm{Var}(\varepsilon), \qquad
 \mathrm{Cov}(\hat\theta) = (X^\top \Sigma^{-1} X)^{-1}
 \\[8pt]
@@ -156,7 +149,6 @@ y - \hat y = \varepsilon, \qquad
 \end{aligned}
 $$
 
-Inline example: We minimize $\varepsilon = y - \hat y$.
 
 Inline example: We minimize \(\varepsilon = y - \hat y\).
 
