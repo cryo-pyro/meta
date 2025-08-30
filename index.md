@@ -89,7 +89,7 @@ Perfect — you've already outlined the **five-layer pentad** as a recursive sca
 * **Scaling agents × space × time**
 * Perspectives across tactical → informational → strategical → operational → existential
 * Perspectivism: truth as emergent from multiplicity of vantage points
-  👉 This encodes **awareness**: meaning emerges when perspectives collide and self-reference.
+  👉 This encodes **awareness**: meaning emerges when perspectives collide and [self-reference](https://upload.wikimedia.org/wikipedia/commons/4/49/%22The_School_of_Athens%22_by_Raffaello_Sanzio_da_Urbino.jpg).
 
 ---
 
