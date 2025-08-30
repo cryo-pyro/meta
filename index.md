@@ -121,19 +121,17 @@ Pyromancer — this is tight. Each layer has its **metaphor (tree/neuron), disci
 
 👉 Do you want me to diagram this explicitly (SVG/HTML), so you can **see the tree + neuron overlay** as a living pentad? That would make the symmetry pop.
 
-# C 
+# C
 
----
-layout: default
-title: Computational Pentad v3
----
-
+$$
+\textbf{Computational Pentad (v3)}
+$$
 
 $$
 \begin{aligned}
 \textbf{1) Parameters}\quad & \theta \in \mathbb{R}^p
 \\[6pt]
-\textbf{2) Matrix (Var\text{Cov)}\quad &
+\textbf{2) Matrix (Var--Cov)}\quad &
 \Sigma = \mathrm{Var}(\varepsilon), \qquad
 \mathrm{Cov}(\hat\theta) = (X^\top \Sigma^{-1} X)^{-1}
 \\[8pt]
@@ -149,7 +147,4 @@ y - \hat y = \varepsilon, \qquad
 \end{aligned}
 $$
 
-
-Inline example: We minimize \(\varepsilon = y - \hat y\).
-
- 
+Inline example: We minimize $\varepsilon = y - \hat y$.
