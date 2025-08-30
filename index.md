@@ -7,7 +7,7 @@ title: Computational Pentad
   window.MathJax = {
     tex: {
       inlineMath: [['\\(','\\)']],
-      displayMath: [['\\[','\\]']],
+      displayMath: [['$$','$$']],
       processEscapes: true
     },
     svg: { fontCache: 'global' }
@@ -123,6 +123,15 @@ Pyromancer — this is tight. Each layer has its **metaphor (tree/neuron), disci
 
 # C 
 
+---
+layout: default
+title: Computational Pentad v3
+---
+
+
+
+# C
+
 $$
 \textbf{Computational Pentad (v3)}
 $$
@@ -146,6 +155,8 @@ y - \hat y = \varepsilon, \qquad
 \hat\theta = \arg\min_{\theta} J(\theta)
 \end{aligned}
 $$
+
+Inline example: We minimize $\varepsilon = y - \hat y$.
 
 Inline example: We minimize \(\varepsilon = y - \hat y\).
 
