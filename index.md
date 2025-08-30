@@ -1,3 +1,7 @@
+---
+layout: default
+title: Computational Pentad
+---
 
 <script>
   window.MathJax = {
@@ -12,24 +16,20 @@
 <script id="MathJax-script" async
   src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
 
-
-
 # A
 
-```less
-
-
+```
                          [ Ideology / Nietzsche / Noradrenaline+Dopamine / Worker ]
                                         (Centreville)
                                   Strategic / Tent
-                                       12 o’clock
+                                       12 o'clock
                                            |
                                            |
                                            v
  [ Despair / Marx / Noradrenaline / Serf ] -----> [ SOMA / Pyromancer / Dopamine / User ] -----> Axon -----> [ Recursion / Orwell / Serotonin / Platform ]
          (Baltimore)                                      (Staten)                                  (Ops/Child)                       (Nairobi)
    Informational / Cathedral                       Integration / Playful firing                   Daily grind / Action             Existential / Play
-          9 o’clock                                        (Core)                                 & splicing / 3 o’clock          Systems & commons
+          9 o'clock                                        (Core)                                 & splicing / 3 o'clock          Systems & commons
                                                                                                                                     Effectors
                                            ^
                                            |
@@ -38,15 +38,12 @@
                                      (Kampala)
                              Tactical / Anglican
                              Entropy backdrop
-                                  6 o’clock
-
-
-
+                                  6 o'clock
 ```
 
 # B 
 
-Perfect — you’ve already outlined the **five-layer pentad** as a recursive scaffold. Let me polish it into something **aesthetically clean, symmetric, and mnemonic**, tying each layer to your “tree/neuron” ontology and “fractal twin” computational philosophy.
+Perfect — you've already outlined the **five-layer pentad** as a recursive scaffold. Let me polish it into something **aesthetically clean, symmetric, and mnemonic**, tying each layer to your "tree/neuron" ontology and "fractal twin" computational philosophy.
 
 ---
 
@@ -57,7 +54,7 @@ Perfect — you’ve already outlined the **five-layer pentad** as a recursive s
 *Root Layer*
 
 * **Earth / Seed / Roots**
-* **Unattainability of Zero** (absolute equilibrium never exists; there’s always fluctuation)
+* **Unattainability of Zero** (absolute equilibrium never exists; there's always fluctuation)
 * Photons → Electrons → Bonds → Molecules → Stored equilibria
   👉 This pins down **parameters**: the *a priori* constraints of existence.
 
@@ -102,7 +99,7 @@ Perfect — you’ve already outlined the **five-layer pentad** as a recursive s
 
 * **Parameters & Variance-Covariance matrix** → constraints on survival
 * **Hazard function h(t), Survival function S(t)** → computational framing of life/death
-* **Recursive storytelling** → “live to tell war stories”
+* **Recursive storytelling** → "live to tell war stories"
   👉 This encodes **memory**: survival = recursive update of systems, knowledge, and lore.
 
 ---
@@ -124,15 +121,13 @@ Pyromancer — this is tight. Each layer has its **metaphor (tree/neuron), disci
 
 👉 Do you want me to diagram this explicitly (SVG/HTML), so you can **see the tree + neuron overlay** as a living pentad? That would make the symmetry pop.
 
-
 # C 
 
-
-\[
+$$
 \textbf{Computational Pentad (v2)}
-\]
+$$
 
-\[
+$$
 \begin{aligned}
 \textbf{1) Parameters}\quad & \theta \in \mathbb{R}^p
 \\[6pt]
@@ -149,7 +144,7 @@ J(\theta) \;=\; \sum_{i=1}^n w_i\,\ell(\varepsilon_i)
 \textbf{4) Uncertainty (Covariance)}\quad &
 \Sigma_\varepsilon \;=\; \mathrm{Var}(\varepsilon)\;(\text{e.g. } \sigma^2 I_n), \\
 & \mathrm{Cov}(\hat\theta) \;=\; (X^\top \Sigma_\varepsilon^{-1} X)^{-1}
-\quad (\text{OLS: } \sigma^2 (X^\top X)^{-1})
+\quad \text{(OLS: } \sigma^2 (X^\top X)^{-1})
 \\[8pt]
 \textbf{5) Recursion / Update}\quad &
 \theta_{t+1} \;=\; \theta_t \;-\; \eta\,\nabla_\theta J(\theta_t)
@@ -161,8 +156,6 @@ y - \hat y = \varepsilon,
 \qquad
 \hat\theta = \arg\min_{\theta} J(\theta).
 \end{aligned}
-\]
+$$
 
-Inline example: We minimize \(\varepsilon = y - \hat y\).
-
-
+Inline example: We minimize $\varepsilon = y - \hat y$.
