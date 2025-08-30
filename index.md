@@ -124,10 +124,6 @@ Pyromancer — this is tight. Each layer has its **metaphor (tree/neuron), disci
 # C
 
 $$
-\textbf{Computational Pentad (v3)}
-$$
-
-$$
 \begin{aligned}
 \textbf{1) Parameters}\quad & \theta \in \mathbb{R}^p
 \\[6pt]
@@ -147,4 +143,4 @@ y - \hat y = \varepsilon, \qquad
 \end{aligned}
 $$
 
-Inline example: We minimize $\varepsilon = y - \hat y$.
+ 
