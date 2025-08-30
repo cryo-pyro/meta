@@ -1,4 +1,5 @@
-```less
+```
+less
                          [ Ideology / Nietzsche / Noradrenaline+Dopamine / Worker ]
                                         (Centreville)
                                   Strategic / Tent
