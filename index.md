@@ -76,7 +76,7 @@ Perfect — you've already outlined the **five-layer pentad** as a recursive sca
 *Branching Layer*
 
 * **Branching** → collisions and interactions at forks
-* **Games** (zero-sum, reciprocal, cooperative) as equilibria
+* **Games** (zero-sum, reciprocal, shared) as equilibria ; [SZR](https://en.wikipedia.org/wiki/SZA)
 * Human society = the negotiation of collisions
   👉 This encodes **interaction**: storage/constraints emerge when entities collide.
 
