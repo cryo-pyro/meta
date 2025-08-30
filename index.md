@@ -121,7 +121,7 @@ Pyromancer — this is tight. Each layer has its **metaphor (tree/neuron), disci
 
 👉 Do you want me to diagram this explicitly (SVG/HTML), so you can **see the tree + neuron overlay** as a living pentad? That would make the symmetry pop.
 
-# C
+# [C](https://claude.ai/public/artifacts/ebe6118c-b651-4392-a118-b67ad1e45f6c)
 
 $$
 \begin{aligned}
